@@ -11,7 +11,7 @@ namespace ToDoListApp
         {
             InitializeComponent();
             CreateOneTask();
-         MessagingCenter.Subscribe<AddTasks, Tasks>(this, "AgregarTarea", (sender, tarea) =>
+         MessagingCenter.Subscribe<AddTasks, Tasks>(this, "AddTask", (sender, tarea) =>
          {
             Tareas.Add(tarea);
          });

@@ -5,11 +5,11 @@
              Title="AddTasks">
   <StackLayout>
     <Entry x:Name="TaskNameEntry" 
-            Placeholder="Ingrese la nueva tarea" 
-            Text="{Binding NuevaTarea.TaskName}" />
+            Placeholder="Ingresa tu tarea" 
+            Text="{Binding NewTask.TaskName}" />
     <Entry x:Name="StatusEntry" 
             Placeholder="Ingrese el estado de la tarea" 
-            Text="{Binding NuevaTarea.Status}" />
+            Text="{Binding NewTask.Status}" />
     <Button x:Name="ConfirmarBtn" 
              Clicked="ConfirmarBtn_Clicked" 
              Text="Confirmar" />
